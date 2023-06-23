@@ -4,6 +4,10 @@ public class Main {
     // Б-321...
     // Коды даны для примера и не соответствуют действительности. Учитывайте, что нужно распечатать коды букв в двух регистрах!
     public static void main(String[] args) {
-        //todo код писать тут
+        String rusLetters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+        for (int i = 0; i < rusLetters.length(); i++){
+            System.out.println(rusLetters.charAt(i) + " - " + (int)rusLetters.charAt(i));
+        }
     }
+        //todo код писать тут
 }
